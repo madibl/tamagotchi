@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tamagotchi Game</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <h1>Tamagotchi!</h1>
+        <div id="mode">
+            <div id="homeButton"></div>
+            <div id="dressupButton"></div>
+        </div>
+        <div id="game">
+            <p>Welcome to tamagotchi!</p>
+            <canvas id="spriteCanvas" width="128" height="128"></canvas>
+            <img id="spriteSheet" src="assets/ebic.png">  
+        </div>
+        
+        <script type="module" src="renderer.js"></script>
+    </body>
+</html>

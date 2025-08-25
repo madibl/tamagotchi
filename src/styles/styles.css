@@ -1,0 +1,43 @@
+#spriteSheet {
+    display: none;
+}
+
+#homeButton {
+  background-image: url('../assets/buttons/homeIcon.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 32px;
+  height: 32px;
+  border: none;
+}
+
+#dressupButton {
+  background-image: url('../assets/buttons/dressupIcon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 32px; 
+  height: 32px;
+  border: none;
+}
+
+#homeButton:hover {
+    background-position: center;
+}
+
+#homeButton:active {
+    background-position: bottom;
+}
+
+#dressupButton:hover {
+    background-position: center;
+}
+
+#dressupButton:active {
+    background-position: bottom;
+}
+
+#mode {
+    display: flex;
+}
